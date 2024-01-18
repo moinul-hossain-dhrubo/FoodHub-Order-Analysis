@@ -37,24 +37,24 @@ delivery_time: Time (in minutes) taken by the delivery person to deliver the foo
 
 7. The majority of clients ordered items from the following cuisines, accounting for 82.56% of all orders: American (30.77%), Japanese (24.76%), Italian (15.70%), and Chinese (11.33%).Additionally, these four cuisines—American (30.44%), Japanese (24.47%), Italian (15.62%), and Chinese (11.19%)—contributed 81.72% of the total revenue generated.
 
-<img src = "cuisine_type_count.png" width=800 height=400>
+![sum_cost_by_cuisine_type](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/2cb67f4f-4816-4af7-aa32-03d2f80a01a2)
 
 9. People are much more likely to order meals online on the weekends than on weekdays, as indicated by the fact that 71.18% of orders were placed on the weekends compared to 28.82% on weekdays.
 
-<img src = "count_days_of_the_week.png" width=800 height=400>
+![count_days_of_the_week](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/f3af07dd-b105-4228-9e85-83a6d0c1b9df)
 
 11. The majority of customares (38.78%) did not provide rating. 30.98% customers given a 5-star rating, followed by 9.91% and 20.34% for 3 and 4 stars, respectively.
 
-<img src = "rating_count.png" width=800 height=400>
+![rating_counts](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/9f830eb1-2804-463c-9c72-a892299f2a87)
 
 13. Top five resturants in terms of receiving orders with percentage : Shake Shack (11.54%), The Meatball Shop(6.95%), Blue Ribbon Sushi(6.27%), Blue Ribbon Fried Chicken (5.06%), Parm has (3.58%).
 
-<img src = "top_restaurants.png" width=800 height=400>
+![top_restaurants](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/36cfb638-0e30-4922-b3d7-d1d3651f915c)
 
 15. The average number of orders was lower for the cuisines with higher order costs and vice-versa.
 
 16. Weekdays have a considerably greater mean delivery time (28.34) than weekends (22.47) as well as their median (28 on weekdays, 22 on weekends)
-<img src = "delivery_time_difference.png" width=800 height=400>
+![delivery_time_difference](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/394553bc-022c-423e-b947-1e561d890db2)
 
 ## **Recommendations:**
 Encourage Customers to give Ratings/Feedback: Apply strategies to get more ratings from individuals. For instance, specific reward points for rating items. Positive reviews can boost the reputation of the restaurant and attract more customers. In addtion, It will provide a better understanding of the orders.

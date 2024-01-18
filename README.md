@@ -11,16 +11,16 @@ The food aggregator company has stored the data of the different orders made by 
 ## **Data Description**
 The data contains the different data related to a food order. The detailed data dictionary is given below.
 
-## **Data Dictionary**
-order_id: Unique ID of the order
-customer_id: ID of the customer who ordered the food
-restaurant_name: Name of the restaurant
-cuisine_type: Cuisine ordered by the customer
-cost: Cost of the order
-day_of_the_week: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday)
-rating: Rating given by the customer out of 5
-food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
-delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
+**Data Dictionary**<br/>
+order_id: Unique ID of the order<br/>
+customer_id: ID of the customer who ordered the food<br/>
+restaurant_name: Name of the restaurant<br/>
+cuisine_type: Cuisine ordered by the customer<br/>
+cost: Cost of the order<br/>
+day_of_the_week: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday)<br/>
+rating: Rating given by the customer out of 5<br/>
+food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.<br/>
+delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information<br/>
 
 ## **Conclusions:**
 1. We have five numerical features and four categorical features. The dataset doesn't have any missing data and there are no outliers in the numerical features.
@@ -39,34 +39,34 @@ delivery_time: Time (in minutes) taken by the delivery person to deliver the foo
 
 ![sum_cost_by_cuisine_type](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/2cb67f4f-4816-4af7-aa32-03d2f80a01a2)
 
-9. People are much more likely to order meals online on the weekends than on weekdays, as indicated by the fact that 71.18% of orders were placed on the weekends compared to 28.82% on weekdays.
+8. People are much more likely to order meals online on the weekends than on weekdays, as indicated by the fact that 71.18% of orders were placed on the weekends compared to 28.82% on weekdays.
 
 ![count_days_of_the_week](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/f3af07dd-b105-4228-9e85-83a6d0c1b9df)
 
-11. The majority of customares (38.78%) did not provide rating. 30.98% customers given a 5-star rating, followed by 9.91% and 20.34% for 3 and 4 stars, respectively.
+9. The majority of customares (38.78%) did not provide rating. 30.98% customers given a 5-star rating, followed by 9.91% and 20.34% for 3 and 4 stars, respectively.
 
 ![rating_counts](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/9f830eb1-2804-463c-9c72-a892299f2a87)
 
-13. Top five resturants in terms of receiving orders with percentage : Shake Shack (11.54%), The Meatball Shop(6.95%), Blue Ribbon Sushi(6.27%), Blue Ribbon Fried Chicken (5.06%), Parm has (3.58%).
+10. Top five resturants in terms of receiving orders with percentage : Shake Shack (11.54%), The Meatball Shop(6.95%), Blue Ribbon Sushi(6.27%), Blue Ribbon Fried Chicken (5.06%), Parm has (3.58%).
 
 ![top_restaurants](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/36cfb638-0e30-4922-b3d7-d1d3651f915c)
 
-15. The average number of orders was lower for the cuisines with higher order costs and vice-versa.
+11. The average number of orders was lower for the cuisines with higher order costs and vice-versa.
 
-16. Weekdays have a considerably greater mean delivery time (28.34) than weekends (22.47) as well as their median (28 on weekdays, 22 on weekends)
+12. Weekdays have a considerably greater mean delivery time (28.34) than weekends (22.47) as well as their median (28 on weekdays, 22 on weekends)
 ![delivery_time_difference](https://github.com/moinul-hossain-dhrubo/FoodHub-Order-Analysis/assets/122023969/394553bc-022c-423e-b947-1e561d890db2)
 
 ## **Recommendations:**
-Encourage Customers to give Ratings/Feedback: Apply strategies to get more ratings from individuals. For instance, specific reward points for rating items. Positive reviews can boost the reputation of the restaurant and attract more customers. In addtion, It will provide a better understanding of the orders.
+* Encourage Customers to give Ratings/Feedback: Apply strategies to get more ratings from individuals. For instance, specific reward points for rating items. Positive reviews can boost the reputation of the restaurant and attract more customers. In addtion, It will provide a better understanding of the orders.
 
-Promotional offers : Offering promotional deals from restaurants with poor sales can boost sales.
+* Promotional offers : Offering promotional deals from restaurants with poor sales can boost sales.
 
-Weekday Promotions : Running special promotional campaigns on weekdays can boost sales because individuals often place fewer orders on such days. Specifically, run the campaigns focusing popular cuisines on weekdays.
+* Weekday Promotions : Running special promotional campaigns on weekdays can boost sales because individuals often place fewer orders on such days. Specifically, run the campaigns focusing popular cuisines on weekdays.
 
-Improve Delivery Time : On weekdays, concentrate on reducing delivery times. Find the main causes of delivery taking longer throughout the week than on the weekend and then take necessary steps. e.g. Perhaps the delivery person doesn't think it's worthwhile to make deliveries during the workdays and that's causing lack of delivery persons which ultimately causes the delay. Maybe a third party delivery service can resolve this issue.
+* Improve Delivery Time : On weekdays, concentrate on reducing delivery times. Find the main causes of delivery taking longer throughout the week than on the weekend and then take necessary steps. e.g. Perhaps the delivery person doesn't think it's worthwhile to make deliveries during the workdays and that's causing lack of delivery persons which ultimately causes the delay. Maybe a third party delivery service can resolve this issue.
 
-Imply Loyalty programs : Implement loyalty programs, special offers, or other incentives for returning customers. To keep them coming back, interact with your customers through customized campaigns.
+* Imply Loyalty programs : Implement loyalty programs, special offers, or other incentives for returning customers. To keep them coming back, interact with your customers through customized campaigns.
 
-Reconstruct menus: Try looking through their menu to see if it's expensive because the cuisines with the highest order costs have the fewest orders overall.Try offering discounts on those cuisines to see if the high price is the issue or if people simply don't like them. Or maybe some resturant has a minimum order cost requirement which are causing customer dissatisfaction.
+* Reconstruct menus: Try looking through their menu to see if it's expensive because the cuisines with the highest order costs have the fewest orders overall.Try offering discounts on those cuisines to see if the high price is the issue or if people simply don't like them. Or maybe some resturant has a minimum order cost requirement which are causing customer dissatisfaction.
 
-Monitor changes based on data : Try to measure the change after implementing solutions to see whether they are truly effective. Hypotheses testing(e.g. t-test,chi-squared test, ANOVA test etc.) can be a useful way to evaluate differences.
+* Monitor changes based on data : Try to measure the change after implementing solutions to see whether they are truly effective. Hypotheses testing(e.g. t-test,chi-squared test, ANOVA test etc.) can be a useful way to evaluate differences.

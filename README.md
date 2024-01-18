@@ -37,15 +37,24 @@ delivery_time: Time (in minutes) taken by the delivery person to deliver the foo
 
 7. The majority of clients ordered items from the following cuisines, accounting for 82.56% of all orders: American (30.77%), Japanese (24.76%), Italian (15.70%), and Chinese (11.33%).Additionally, these four cuisines—American (30.44%), Japanese (24.47%), Italian (15.62%), and Chinese (11.19%)—contributed 81.72% of the total revenue generated.
 
-8. People are much more likely to order meals online on the weekends than on weekdays, as indicated by the fact that 71.18% of orders were placed on the weekends compared to 28.82% on weekdays.
+<img src = "cuisine_type_count.png" width=800 height=400>
 
-9. The majority of customares (38.78%) did not provide rating. 30.98% customers given a 5-star rating, followed by 9.91% and 20.34% for 3 and 4 stars, respectively.
+9. People are much more likely to order meals online on the weekends than on weekdays, as indicated by the fact that 71.18% of orders were placed on the weekends compared to 28.82% on weekdays.
 
-10. Top five resturants in terms of receiving orders with percentage : Shake Shack (11.54%), The Meatball Shop(6.95%), Blue Ribbon Sushi(6.27%), Blue Ribbon Fried Chicken (5.06%), Parm has (3.58%).
+<img src = "count_days_of_the_week.png" width=800 height=400>
 
-11. The average number of orders was lower for the cuisines with higher order costs and vice-versa.
+11. The majority of customares (38.78%) did not provide rating. 30.98% customers given a 5-star rating, followed by 9.91% and 20.34% for 3 and 4 stars, respectively.
 
-12. Weekdays have a considerably greater mean delivery time (28.34) than weekends (22.47) as well as their median (28 on weekdays, 22 on weekends)
+<img src = "rating_count.png" width=800 height=400>
+
+13. Top five resturants in terms of receiving orders with percentage : Shake Shack (11.54%), The Meatball Shop(6.95%), Blue Ribbon Sushi(6.27%), Blue Ribbon Fried Chicken (5.06%), Parm has (3.58%).
+
+<img src = "top_restaurants.png" width=800 height=400>
+
+15. The average number of orders was lower for the cuisines with higher order costs and vice-versa.
+
+16. Weekdays have a considerably greater mean delivery time (28.34) than weekends (22.47) as well as their median (28 on weekdays, 22 on weekends)
+<img src = "delivery_time_difference.png" width=800 height=400>
 
 ## **Recommendations:**
 Encourage Customers to give Ratings/Feedback: Apply strategies to get more ratings from individuals. For instance, specific reward points for rating items. Positive reviews can boost the reputation of the restaurant and attract more customers. In addtion, It will provide a better understanding of the orders.
